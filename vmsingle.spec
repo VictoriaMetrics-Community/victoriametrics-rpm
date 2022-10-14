@@ -64,7 +64,7 @@ cp victoria-metrics-prod %{buildroot}%{_bindir}/victoria-metrics-prod
 %endif
 
 %files
-%config /etc/victoriametrics/single/victoriametrics.conf
+%config /etc/victoriametrics/single/vmsingle.conf
 %{_bindir}/victoria-metrics-prod
 %dir %attr(0775, victoriametrics, victoriametrics) /var/lib/victoria-metrics-data
 %if %{use_systemd}
