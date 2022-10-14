@@ -10,12 +10,12 @@ URL:     https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v%
 Source0: LICENSE
 Requires(pre): /usr/sbin/useradd, /usr/bin/getent, /usr/bin/echo, /usr/bin/chown
 Requires(postun): /usr/sbin/userdel
+BuildRequires: curl
 
 %description
 vmrestore restores data from backups created by vmbackup. VictoriaMetrics v1.29.0 and newer versions must be used for working with the restored data.
 
 %prep
-BuildRequires: curl
 curl -L %{url} > vmutils.tar.gz
 tar -zxf vmutils.tar.gz
 

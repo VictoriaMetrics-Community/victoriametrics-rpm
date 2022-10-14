@@ -10,6 +10,7 @@ URL: https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v%{ver
 Source0: LICENSE
 Requires(pre): /usr/sbin/useradd, /usr/bin/getent, /usr/bin/echo, /usr/bin/chown
 Requires(postun): /usr/sbin/userdel
+BuildRequires: curl
 
 %description
 vmbackup creates VictoriaMetrics data backups from instant snapshots.
