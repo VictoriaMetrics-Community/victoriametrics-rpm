@@ -1,3 +1,8 @@
+[![GitHub license](https://img.shields.io/github/license/VictoriaMetrics/VictoriaMetrics.svg)](https://github.com/VictoriaMetrics/victoriam-metrics-rpm/blob/master/LICENSE)
+[![Slack](https://img.shields.io/badge/join%20slack-%23victoriametrics-brightgreen.svg)](https://slack.victoriametrics.com/)
+![Twitter Follow](https://img.shields.io/twitter/follow/VictoriaMetrics?style=social)
+![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/VictoriaMetrics?style=social)
+
 # victoriametrics-rpm
 RPM for VictoriaMetrics LTS - fast, cost-effective monitoring solution and time series database 
 
