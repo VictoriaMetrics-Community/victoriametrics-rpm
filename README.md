@@ -4,7 +4,7 @@
 ![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/VictoriaMetrics?style=social)
 
 # victoriametrics-rpm
-RPM for VictoriaMetrics LTS - fast, cost-effective monitoring solution and time series database 
+RPM for VictoriaMetrics LTS - fast, cost-effective monitoring solution and time series database
 
 | Package | Status |
 | ------- | ------ |
@@ -19,7 +19,7 @@ RPM for VictoriaMetrics LTS - fast, cost-effective monitoring solution and time 
 | vmselect | [![Copr build status](https://copr.fedorainfracloud.org/coprs/denisgolius/VictoriaMetrics-LTS-rpm/package/vmselect/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/denisgolius/VictoriaMetrics-LTS-rpm/package/vmselect/) |
 | vmstorage | [![Copr build status](https://copr.fedorainfracloud.org/coprs/denisgolius/VictoriaMetrics-LTS-rpm/package/vmstorage/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/denisgolius/VictoriaMetrics-LTS-rpm/package/vmstorage/) |
 
-_❗️ Please disable [Selinux](https://ru.wikipedia.org/wiki/SELinux) before run install or configure it for your own needs - see more [here](https://github.com/patsevanton/victoriametrics-rpm/issues/10)._
+❗️ Please disable [Selinux](https://ru.wikipedia.org/wiki/SELinux) before run install or configure it for your own needs - see more [here](https://github.com/patsevanton/victoriametrics-rpm/issues/10)._
 
 ## Supported systems: 
 - RedHat linux 7/8/9
