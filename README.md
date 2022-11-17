@@ -1,7 +1,5 @@
 [![GitHub license](https://img.shields.io/github/license/VictoriaMetrics/VictoriaMetrics.svg)](https://github.com/VictoriaMetrics/victoriam-metrics-rpm/blob/master/LICENSE)
-[![Slack](https://img.shields.io/badge/join%20slack-%23victoriametrics-brightgreen.svg)](https://slack.victoriametrics.com/)
-![Twitter Follow](https://img.shields.io/twitter/follow/VictoriaMetrics?style=social)
-![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/VictoriaMetrics?style=social)
+[![Slack](https://img.shields.io/badge/join%20slack-%23victoriametrics-brightgreen.svg)](https://slack.victoriametrics.com/) <a href="https://twitter.com/VictoriaMetrics"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/VictoriaMetrics?style=social"></a> <a href="https://www.reddit.com/r/VictoriaMetrics/"><img alt="Subreddit subscribers" src="https://img.shields.io/reddit/subreddit-subscribers/VictoriaMetrics?style=social"></a>
 
 # victoriametrics-rpm
 RPM for VictoriaMetrics LTS - fast, cost-effective monitoring solution and time series database
@@ -19,7 +17,7 @@ RPM for VictoriaMetrics LTS - fast, cost-effective monitoring solution and time 
 | vmselect | [![Copr build status](https://copr.fedorainfracloud.org/coprs/denisgolius/VictoriaMetrics-LTS-rpm/package/vmselect/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/denisgolius/VictoriaMetrics-LTS-rpm/package/vmselect/) |
 | vmstorage | [![Copr build status](https://copr.fedorainfracloud.org/coprs/denisgolius/VictoriaMetrics-LTS-rpm/package/vmstorage/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/denisgolius/VictoriaMetrics-LTS-rpm/package/vmstorage/) |
 
-❗️ Please disable [Selinux](https://ru.wikipedia.org/wiki/SELinux) before run install or configure it for your own needs - see more [here](https://github.com/patsevanton/victoriametrics-rpm/issues/10)._
+❗️ Please disable [Selinux](https://ru.wikipedia.org/wiki/SELinux) before run install or configure it for your own needs - see more [here](https://github.com/patsevanton/victoriametrics-rpm/issues/10).
 
 ## Supported systems: 
 - RedHat linux 7/8/9
