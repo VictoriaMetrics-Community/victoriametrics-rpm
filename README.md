@@ -33,7 +33,7 @@ RPM for VictoriaMetrics LTS - fast, cost-effective monitoring solution and time 
 
 ```
 sudo dnf -y install yum-plugin-copr
-sudo dnf -y copr enable denisgolius/VictoriaMetrics-LTS-rpm
+sudo dnf -y copr enable victoriametrics/VictoriaMetrics-LTS-rpm
 sudo dnf makecache
 sudo dnf -y install vmsingle
 sudo dnf -y install vmagent
@@ -51,7 +51,7 @@ sudo dnf -y install vmstorage
 
 ```
 sudo yum -y install yum-plugin-copr
-sudo yum -y copr enable denisgolius/VictoriaMetrics
+sudo yum -y copr enable victoriametrics/VictoriaMetrics
 sudo yum makecache
 sudo yum -y install vmsingle
 sudo yum -y install vmagent
