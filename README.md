@@ -2,7 +2,7 @@
 [![Slack](https://img.shields.io/badge/join%20slack-%23victoriametrics-brightgreen.svg)](https://slack.victoriametrics.com/) <a href="https://twitter.com/VictoriaMetrics"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/VictoriaMetrics?style=social"></a> <a href="https://www.reddit.com/r/VictoriaMetrics/"><img alt="Subreddit subscribers" src="https://img.shields.io/reddit/subreddit-subscribers/VictoriaMetrics?style=social"></a>
 
 # victoriametrics-rpm
-RPM for VictoriaMetrics LTS - fast, cost-effective monitoring solution and time series database
+RPM for VictoriaMetrics - fast, cost-effective monitoring solution and time series database
 
 | Package | Status |
 | ------- | ------ |
