@@ -4,8 +4,8 @@
 %endif
 
 Name:    vmagent
-Version: 1.102.0
-Release: 2
+Version: 1.102.1
+Release: 1
 Summary: vmagent is a tiny but mighty agent which helps you collect metrics from various sources and store them in VictoriaMetrics or any other Prometheus-compatible storage systems that support the remote_write protocol.
 
 Group:   Development Tools
