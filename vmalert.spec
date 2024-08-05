@@ -1,11 +1,16 @@
+%define release_arch amd64
+%ifarch aarch64
+%define release_arch arm64
+%endif
+
 Name:    vmalert
 Version: 1.102.0
-Release: 1
+Release: 2
 Summary: vmalert executes a list of the given alerting or recording rules against configured address. It is heavily inspired by Prometheus implementation and aims to be compatible with its syntax.
 
 Group:   Development Tools
 License: ASL 2.0
-URL: https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v%{version}/vmutils-linux-amd64-v%{version}.tar.gz
+URL: https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v%{version}/vmutils-linux-%{release_arch}-v%{version}.tar.gz
 
 Source0: %{name}.service
 Source1: %{name}.conf

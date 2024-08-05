@@ -1,11 +1,16 @@
+%define release_arch amd64
+%ifarch aarch64
+%define release_arch arm64
+%endif
+
 Name:    vminsert
 Version: 1.102.0
-Release: 1
+Release: 2
 Summary:  accepts the ingested data and spreads it among vmstorage nodes according to consistent hashing over metric name and all its labels
 
 Group:   Development Tools
 License: ASL 2.0
-URL: https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v%{version}/victoria-metrics-linux-amd64-v%{version}-cluster.tar.gz
+URL: https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v%{version}/victoria-metrics-linux-%{release_arch}-v%{version}-cluster.tar.gz
 
 Source0: %{name}.service
 Source1: %{name}.conf
@@ -26,8 +31,8 @@ BuildRequires: systemd
 vminsert accepts the ingested data and spreads it among vmstorage nodes according to consistent hashing over metric name and all its labels
 
 %prep
-curl -L %{url} > victoria-metrics-amd64-cluster.tar.gz
-tar -zxf victoria-metrics-amd64-cluster.tar.gz
+curl -L %{url} > victoria-metrics-%{release_arch}-cluster.tar.gz
+tar -zxf victoria-metrics-%{release_arch}-cluster.tar.gz
 
 %install
 %{__install} -m 0755 -d %{buildroot}%{_bindir}
