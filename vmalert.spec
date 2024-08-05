@@ -1,3 +1,8 @@
+%define release_arch amd64
+%ifarch aarch64
+%define release_arch arm64
+%endif
+
 Name:    vmalert
 Version: 1.102.0
 Release: 1
@@ -5,7 +10,7 @@ Summary: vmalert executes a list of the given alerting or recording rules agains
 
 Group:   Development Tools
 License: ASL 2.0
-URL: https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v%{version}/vmutils-linux-amd64-v%{version}.tar.gz
+URL: https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v%{version}/vmutils-linux-%{release_arch}-v%{version}.tar.gz
 
 Source0: %{name}.service
 Source1: %{name}.conf
