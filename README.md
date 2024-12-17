@@ -1,8 +1,14 @@
-[![GitHub license](https://img.shields.io/github/license/VictoriaMetrics/VictoriaMetrics.svg)](https://github.com/VictoriaMetrics/victoriam-metrics-rpm/blob/master/LICENSE)
-[![Slack](https://img.shields.io/badge/join%20slack-%23victoriametrics-brightgreen.svg)](https://slack.victoriametrics.com/) <a href="https://twitter.com/VictoriaMetrics"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/VictoriaMetrics?style=social"></a> <a href="https://www.reddit.com/r/VictoriaMetrics/"><img alt="Subreddit subscribers" src="https://img.shields.io/reddit/subreddit-subscribers/VictoriaMetrics?style=social"></a>
-
 # victoriametrics-rpm
+
+<p align="center">
+   <img src="logo.png" width="300" alt="Home Assistant Add-on VictoriaLogs Database for logs">
+</p>
+
+[![GitHub license](https://img.shields.io/github/license/VictoriaMetrics/VictoriaMetrics.svg)](https://github.com/VictoriaMetrics-Community/homeassistant-addon-victoriametrics/blob/main/LICENSE) [![Slack](https://img.shields.io/badge/join%20slack-%23victoriametrics-brightgreen.svg)](https://slack.victoriametrics.com/) [![Twitter Follow](https://img.shields.io/twitter/follow/VictoriaMetrics?style=social)](https://x.com/VictoriaMetrics) [![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/VictoriaMetrics?style=social)](https://www.reddit.com/r/VictoriaMetrics/) [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white)](https://t.me/VictoriaMetrics_en)
+
 RPM for VictoriaMetrics - fast, cost-effective monitoring solution and time series database
+
+
 
 | Package | Status |
 | ------- | ------ |
