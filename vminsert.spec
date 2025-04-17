@@ -4,7 +4,7 @@
 %endif
 
 Name:    vminsert
-Version: 1.112.0
+Version: 1.115.0
 Release: 1
 Summary:  accepts the ingested data and spreads it among vmstorage nodes according to consistent hashing over metric name and all its labels
 
