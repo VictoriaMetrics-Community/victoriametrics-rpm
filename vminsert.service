@@ -1,6 +1,6 @@
 [Unit]
 Description=vminsert - accepts the ingested data and spreads it among vmstorage nodes according to consistent hashing over metric name and all its labels
-# https://docs.victoriametrics.com/Cluster-VictoriaMetrics.html
+# https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/
 After=network.target
 
 [Service]
@@ -15,7 +15,7 @@ EnvironmentFile=-/etc/victoriametrics/vmcluster/vminsert.conf
 ExecStart=/usr/bin/vminsert-prod $ARGS
 ExecStop=/bin/kill -s SIGTERM $MAINPID
 ExecReload=/bin/kill -HUP $MAINPID
-# See docs https://docs.victoriametrics.com/Single-server-VictoriaMetrics.html#tuning
+# See docs https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#tuning
 LimitNOFILE=1048576
 LimitNPROC=1048576
 LimitCORE=infinity

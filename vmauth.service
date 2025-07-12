@@ -1,6 +1,6 @@
 [Unit]
 Description=vmauth is a simple auth proxy, router and load balancer for VictoriaMetrics. 
-# https://docs.victoriametrics.com/vmauth.html
+# https://docs.victoriametrics.com/victoriametrics/vmauth/
 After=network.target
 
 [Service]
@@ -15,7 +15,7 @@ EnvironmentFile=-/etc/victoriametrics/vmauth/vmauth.conf
 ExecStart=/usr/bin/vmauth-prod $ARGS
 ExecStop=/bin/kill -s SIGTERM $MAINPID
 ExecReload=/bin/kill -HUP $MAINPID
-# See docs https://docs.victoriametrics.com/Single-server-VictoriaMetrics.html#tuning
+# See docs https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#tuning
 LimitNOFILE=1048576
 LimitNPROC=1048576
 LimitCORE=infinity

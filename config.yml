@@ -1,4 +1,4 @@
-# # https://docs.victoriametrics.com/vmauth.html#auth-config
+# # https://docs.victoriametrics.com/victoriametrics/vmauth/#auth-config
 # # Arbitrary number of usernames may be put here.
 # # Usernames must be unique.
 
@@ -25,7 +25,7 @@
 #   url_prefix: "http://localhost:8428?extra_label=team=dev"
 
 #   # The user for querying account 123 in VictoriaMetrics cluster
-#   # See https://docs.victoriametrics.com/Cluster-VictoriaMetrics.html#url-format
+#   # See https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/#url-format
 #   # All the requests to http://vmauth:8427 with the given Basic Auth (username:password)
 #   # will be load-balanced among http://vmselect1:8481/select/123/prometheus and http://vmselect2:8481/select/123/prometheus
 #   # For example, http://vmauth:8427/api/v1/query is proxied to the following urls in a round-robin manner:
@@ -38,7 +38,7 @@
 #   - "http://vmselect2:8481/select/123/prometheus"
 
 #   # The user for inserting Prometheus data into VictoriaMetrics cluster under account 42
-#   # See https://docs.victoriametrics.com/Cluster-VictoriaMetrics.html#url-format
+#   # See https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/#url-format
 #   # All the requests to http://vmauth:8427 with the given Basic Auth (username:password)
 #   # will be load-balanced between http://vminsert1:8480/insert/42/prometheus and http://vminsert2:8480/insert/42/prometheus
 #   # For example, http://vmauth:8427/api/v1/write is proxied to the following urls in a round-robin manner:

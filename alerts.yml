@@ -1,4 +1,4 @@
-# https://docs.victoriametrics.com/vmalert.html
+# https://docs.victoriametrics.com/victoriametrics/vmalert/
 # File contains default list of alerts for vm-single and vmagent services.
 # The alerts below are just recommendations and may require some updates
 # and threshold calibration according to every specific setup.
@@ -46,7 +46,7 @@ groups:
            Consider to either increase available memory or decrease the load on the process."
 
   # Alerts group for VM single assumes that Grafana dashboard
-  # https://grafana.com/grafana/dashboards/10229 is installed.
+  # https://grafana.com/grafana/dashboards/10229-victoriametrics-single-node/ is installed.
   # Pls update the `dashboard` annotation according to your setup.
   - name: vmsingle
     interval: 30s
@@ -200,7 +200,7 @@ groups:
            correctly or that clients which send these metrics aren't misbehaving."
 
   # Alerts group for vmagent assumes that Grafana dashboard
-  # https://grafana.com/grafana/dashboards/12683 is installed.
+  # https://grafana.com/grafana/dashboards/12683-victoriametrics-vmagent/ is installed.
   # Pls update the `dashboard` annotation according to your setup.
   - name: vmagent
     interval: 30s

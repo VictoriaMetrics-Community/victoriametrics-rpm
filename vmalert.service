@@ -1,6 +1,6 @@
 [Unit]
 Description=vmalert executes a list of the given alerting or recording rules against configured address. It is heavily inspired by Prometheus implementation and aims to be compatible with its syntax.
-# https://docs.victoriametrics.com/vmalert.html
+# https://docs.victoriametrics.com/victoriametrics/vmalert/
 After=network.target
 
 [Service]
@@ -15,7 +15,7 @@ EnvironmentFile=-/etc/victoriametrics/vmalert/vmalert.conf
 ExecStart=/usr/bin/vmalert-prod $ARGS
 ExecStop=/bin/kill -s SIGTERM $MAINPID
 ExecReload=/bin/kill -HUP $MAINPID
-# See docs https://docs.victoriametrics.com/Single-server-VictoriaMetrics.html#tuning
+# See docs https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#tuning
 LimitNOFILE=1048576
 LimitNPROC=1048576
 LimitCORE=infinity
