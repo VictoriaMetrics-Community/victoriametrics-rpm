@@ -4,7 +4,7 @@
 %endif
 
 Name:    vmselect
-Version: 1.131.0
+Version: 1.133.0
 Release: 1
 Summary:  accepts the ingested data and spreads it among vmselect nodes according to consistent hashing over metric name and all its labels
 
