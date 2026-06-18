@@ -4,7 +4,7 @@
 %endif
 
 Name:    vmsingle
-Version: 1.144.0
+Version: 1.145.0
 Release: 1
 Summary: The best long-term remote storage for Prometheus
 
