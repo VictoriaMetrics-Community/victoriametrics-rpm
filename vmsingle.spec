@@ -47,7 +47,6 @@ cp victoria-metrics-prod %{buildroot}%{_bindir}/victoria-metrics-prod
 %endif
 
 %pre
-%pre
 %if 0%{?fedora} && 0%{?fedora} < 40 || 0%{?rhel} && 0%{?rhel} < 10
 %sysusers_create_compat %{SOURCE2}
 %endif
