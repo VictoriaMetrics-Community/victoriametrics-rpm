@@ -13,7 +13,7 @@ License: ASL 2.0
 URL: https://github.com/VictoriaMetrics/VictoriaMetrics/releases/download/v%{version}/victoria-metrics-linux-%{release_arch}-v%{version}.tar.gz
 
 Source0: %{name}.service
-Source1: vmsingle.conf
+Source1: %{name}.conf
 Source2: victoriametrics.sysusers
 BuildRequires: curl
 
